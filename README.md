@@ -6,6 +6,12 @@
 
 ---
 
+## 📌 Supported Windows Versions
+This toolkit is designed and tested for **Windows 10 and Windows 11**.  
+⚠️ Older versions of Windows may not support some PowerShell cmdlets or security features.
+
+---
+
 ## 🌟 Features
 
 | Feature | Description | Status |
@@ -20,40 +26,52 @@
 
 ## ⚡ Quick Start
 
-1. Clone this repository:
-```bash
+1. Clone this repository:  
 git clone https://github.com/<your-username>/Windows-Defense-Toolkit.git
-Open PowerShell as Administrator.
 
-Navigate to the scripts folder:
-
-powershell
+markdown
 Copy code
+
+2. Open PowerShell as Administrator.
+
+3. Navigate to the scripts folder:  
 cd Windows-Defense-Toolkit/security_scripts
-Run a script:
 
-powershell
+css
 Copy code
+
+4. Run a script, for example:  
 .\enable_firewall.ps1
-💡 Tip: Always run scripts as Administrator to apply system-level changes.
 
-🛠️ Scripts Included
-Script	Function
-enable_firewall.ps1	Turns on Windows Firewall for all profiles
-update_windows.ps1	Installs the latest Windows updates
-disable_unneeded_services.ps1	Disables unnecessary background services
-user_account_hardening.ps1	Removes admin rights from standard users and sets strong policies
+yaml
+Copy code
 
-📚 Who Is This For?
-This toolkit is perfect for students, IT beginners, or enthusiasts who want:
+💡 **Tip:** Always run scripts as Administrator to apply system-level changes.
 
-Hands-on PowerShell scripting experience
+---
 
-Understanding of Windows security hardening
+## 🛠️ Included Scripts
 
-A toolkit for a stronger, safer PC
+All scripts are located in the `security_scripts` folder. Users only need to **run the scripts in PowerShell**, they do not need to copy any code manually.  
 
-⚠️ Disclaimer
-This project is for educational purposes only. Always back up your system before running scripts. The author is not responsible for data loss or system issues.
+| Script | Description |
+|--------|-------------|
+| `enable_firewall.ps1` | Enables Windows Firewall |
+| `update_windows.ps1` | Installs the latest Windows updates |
+| `disable_unneeded_services.ps1` | Disables unnecessary background services |
+| `user_account_hardening.ps1` | Hardens user accounts and enforces strong password policy |
 
-<h3 align="center">💪 Make your PC Fort Knox today! 🖥️</h3> ```
+---
+
+## 📚 Target Audience
+
+- Students learning IT and PowerShell scripting  
+- IT beginners and enthusiasts  
+- Anyone who wants to harden and optimize their Windows 10 or 11 PC  
+
+---
+
+## ⚠️ Disclaimer
+This project is for **educational purposes only**. Always back up your system before running scripts. The author is **not responsible** for data loss or system issues.
+
+<h3 align="center">💪 Make your PC Fort Knox today! 🖥️</h3>
